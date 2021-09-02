@@ -1,0 +1,13 @@
+C:\Users\Admnistrator\Desktop\Arquivos GitHub\c#\Orientacao_Objeto-C_Sharp.NET\meuPrimeirPrograma\bin\Debug\netcoreapp3.1\meuPrimeirPrograma.exe
+C:\Users\Admnistrator\Desktop\Arquivos GitHub\c#\Orientacao_Objeto-C_Sharp.NET\meuPrimeirPrograma\bin\Debug\netcoreapp3.1\meuPrimeirPrograma.deps.json
+C:\Users\Admnistrator\Desktop\Arquivos GitHub\c#\Orientacao_Objeto-C_Sharp.NET\meuPrimeirPrograma\bin\Debug\netcoreapp3.1\meuPrimeirPrograma.runtimeconfig.json
+C:\Users\Admnistrator\Desktop\Arquivos GitHub\c#\Orientacao_Objeto-C_Sharp.NET\meuPrimeirPrograma\bin\Debug\netcoreapp3.1\meuPrimeirPrograma.runtimeconfig.dev.json
+C:\Users\Admnistrator\Desktop\Arquivos GitHub\c#\Orientacao_Objeto-C_Sharp.NET\meuPrimeirPrograma\bin\Debug\netcoreapp3.1\meuPrimeirPrograma.dll
+C:\Users\Admnistrator\Desktop\Arquivos GitHub\c#\Orientacao_Objeto-C_Sharp.NET\meuPrimeirPrograma\bin\Debug\netcoreapp3.1\meuPrimeirPrograma.pdb
+C:\Users\Admnistrator\Desktop\Arquivos GitHub\c#\Orientacao_Objeto-C_Sharp.NET\meuPrimeirPrograma\obj\Debug\netcoreapp3.1\meuPrimeirPrograma.csprojAssemblyReference.cache
+C:\Users\Admnistrator\Desktop\Arquivos GitHub\c#\Orientacao_Objeto-C_Sharp.NET\meuPrimeirPrograma\obj\Debug\netcoreapp3.1\meuPrimeirPrograma.AssemblyInfoInputs.cache
+C:\Users\Admnistrator\Desktop\Arquivos GitHub\c#\Orientacao_Objeto-C_Sharp.NET\meuPrimeirPrograma\obj\Debug\netcoreapp3.1\meuPrimeirPrograma.AssemblyInfo.cs
+C:\Users\Admnistrator\Desktop\Arquivos GitHub\c#\Orientacao_Objeto-C_Sharp.NET\meuPrimeirPrograma\obj\Debug\netcoreapp3.1\meuPrimeirPrograma.csproj.CoreCompileInputs.cache
+C:\Users\Admnistrator\Desktop\Arquivos GitHub\c#\Orientacao_Objeto-C_Sharp.NET\meuPrimeirPrograma\obj\Debug\netcoreapp3.1\meuPrimeirPrograma.dll
+C:\Users\Admnistrator\Desktop\Arquivos GitHub\c#\Orientacao_Objeto-C_Sharp.NET\meuPrimeirPrograma\obj\Debug\netcoreapp3.1\meuPrimeirPrograma.pdb
+C:\Users\Admnistrator\Desktop\Arquivos GitHub\c#\Orientacao_Objeto-C_Sharp.NET\meuPrimeirPrograma\obj\Debug\netcoreapp3.1\meuPrimeirPrograma.genruntimeconfig.cache

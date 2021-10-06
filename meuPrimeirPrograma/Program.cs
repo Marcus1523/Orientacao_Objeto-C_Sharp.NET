@@ -7,17 +7,20 @@ namespace meuPrimeirPrograma
         static void Main(string[] args)
         {
 
-            Funcionario funcionarioAlexandre = new Funcionario();
-            funcionarioAlexandre.Nome = "Alexandre";
-            funcionarioAlexandre.CPF = "123.123.123-45";
-            funcionarioAlexandre.Cargo = "Vendedor";
-            funcionarioAlexandre.Salario = 1000;
+            Funcionario funcionarioAlexandre = new Funcionario(){
+            Nome = "Alexandre",
+            CPF = "123.123.123-45",
+            Cargo = "Vendedor",
+            Salario = 1000
+            };
 
             Funcionario funcionarioMarcelo = new Funcionario();
             funcionarioMarcelo.Nome = "Marcelo";
             funcionarioMarcelo.CPF = "456.456.456-67";
             funcionarioMarcelo.Cargo = "Vendedor";
             funcionarioMarcelo.Salario = 1000;
+
+            funcionarioMarcelo.Bonificacao = funcionarioMarcelo.Salario;
 
             ContaCorrente contaDoMarcus = new ContaCorrente("Marcus Vinicius Ferreira Oliveira", 1234, 100, funcionarioAlexandre); //Funcionario Alexandre
             ContaCorrente contaDoAntonio = new ContaCorrente("Antonio Marcos", 1234, 120, funcionarioMarcelo); //Funcionario Marcelo
@@ -84,6 +87,9 @@ namespace meuPrimeirPrograma
             Console.WriteLine("   "); 
             Console.WriteLine("                                                       Fim da Tarefa   "); 
             Console.WriteLine("   "); 
+            Console.WriteLine(" aula de hoje:  "); 
+             Console.WriteLine("A Bonifiação do Alexandre é de:" + funcionarioAlexandre.Bonificacao);
+            Console.WriteLine("A Bonificação do Marcelo é de:" + funcionarioMarcelo.Bonificacao);
         }
     }
 }

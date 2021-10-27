@@ -6,25 +6,31 @@ namespace meuPrimeirPrograma
     {
         static void Main(string[] args)
         {
+            Gerente gerenteCarlos = new Gerente(){
+            Nome = "Carlos",
+            CPF = "987.987.987-98",
+           
+            Salario = 2000
+            };
 
-            Funcionario funcionarioAlexandre = new Funcionario(){
+            Vendedor vendedorAlexandre = new Vendedor(){
             Nome = "Alexandre",
             CPF = "123.123.123-45",
-            Cargo = "Vendedor",
+           
             Salario = 1000
             };
 
-            Funcionario funcionarioMarcelo = new Funcionario();
-            funcionarioMarcelo.Nome = "Marcelo";
-            funcionarioMarcelo.CPF = "456.456.456-67";
-            funcionarioMarcelo.Cargo = "Vendedor";
-            funcionarioMarcelo.Salario = 1000;
+            Vendedor vendedorMarcelo = new Vendedor();
+            vendedorMarcelo.Nome = "Marcelo";
+            vendedorMarcelo.CPF = "456.456.456-67";
+            vendedorMarcelo.Salario = 1000;
 
-            funcionarioMarcelo.Bonificacao = funcionarioMarcelo.Salario;
+           vendedorMarcelo.Bonificacao = vendedorMarcelo.Salario;
+           vendedorAlexandre.Bonificacao = vendedorAlexandre.Salario; //teste
 
-            ContaCorrente contaDoMarcus = new ContaCorrente("Marcus Vinicius Ferreira Oliveira", 1234, 100, funcionarioAlexandre); //Funcionario Alexandre
-            ContaCorrente contaDoAntonio = new ContaCorrente("Antonio Marcos", 1234, 120, funcionarioMarcelo); //Funcionario Marcelo
-            ContaCorrente contaDaValdirene = new ContaCorrente("Valdirene", 1234, 150, funcionarioAlexandre); //Funcionario Alexandre
+            ContaCorrente contaDoMarcus = new ContaCorrente("Marcus Vinicius Ferreira Oliveira", 1234, 100,vendedorAlexandre); //vendedor Alexandre
+            ContaCorrente contaDoAntonio = new ContaCorrente("Antonio Marcos", 1234, 120, vendedorMarcelo); //vendedor Marcelo
+            ContaCorrente contaDaValdirene = new ContaCorrente("Valdirene", 1234, 150, vendedorAlexandre); //vendedor Alexandre
 
 
             Console.WriteLine("   "); 
@@ -41,13 +47,13 @@ namespace meuPrimeirPrograma
             
             Console.WriteLine("     "); 
             Console.WriteLine("-------------------------Comisão dos vendedores--------------------");  
-            Console.WriteLine("A comissão do vendedor Alexandre é:: " + funcionarioAlexandre.Comissao);
-            Console.WriteLine("A comissão do vendedor Marcelo é:" + funcionarioMarcelo.Comissao);
+            Console.WriteLine("A comissão do vendedor Alexandre é:: " + vendedorAlexandre.Comissao);
+            Console.WriteLine("A comissão do vendedor Marcelo é:" + vendedorMarcelo.Comissao);
 
             Console.WriteLine("     "); 
             Console.WriteLine("-------------------------Salario dos vendedores--------------------"); 
-            Console.WriteLine("O Salario do Alexandre é de:" + funcionarioAlexandre.Salario);
-            Console.WriteLine("O Salario do Marcelo é de:" + funcionarioMarcelo.Salario);
+            Console.WriteLine("O Salario do Alexandre é de:" + vendedorAlexandre.Salario);
+            Console.WriteLine("O Salario do Marcelo é de:" + vendedorMarcelo.Salario);
 
              Console.WriteLine("     "); 
             Console.WriteLine("-------------------------Numero total de contas criadas--------------------"); 
@@ -87,9 +93,16 @@ namespace meuPrimeirPrograma
             Console.WriteLine("   "); 
             Console.WriteLine("                                                       Fim da Tarefa   "); 
             Console.WriteLine("   "); 
-            Console.WriteLine(" aula de hoje:  "); 
-             Console.WriteLine("A Bonifiação do Alexandre é de:" + funcionarioAlexandre.Bonificacao);
-            Console.WriteLine("A Bonificação do Marcelo é de:" + funcionarioMarcelo.Bonificacao);
+            Console.WriteLine("-------------------- Bonificação -------------------------------  "); 
+             Console.WriteLine("A Bonifiação do Alexandre é de:" + vendedorAlexandre.Bonificacao);
+            Console.WriteLine("A Bonificação do Marcelo é de:" + vendedorMarcelo.Bonificacao);
+
+
+            Console.WriteLine("   "); 
+            Console.WriteLine("   "); 
+            Console.WriteLine("-------------------- aula de hoje -------------------------------  "); 
+            Console.WriteLine("O salario do Gerente carlos é de :" + gerenteCarlos.Salario);
+          
         }
     }
 }

@@ -9,30 +9,41 @@ namespace meuPrimeirPrograma
             Gerente gerenteCarlos = new Gerente(){
             Nome = "Carlos",
             CPF = "987.987.987-98",
-           
-            Salario = 2000
+            Salario = 2000,
+            NumeroDeAgencias = 5
             };
 
             Vendedor vendedorAlexandre = new Vendedor(){
             Nome = "Alexandre",
             CPF = "123.123.123-45",
-           
-            Salario = 1000
+            Salario = 1000,
+            NumeroClientesAtendidos = 2
             };
 
-            Vendedor vendedorMarcelo = new Vendedor();
-            vendedorMarcelo.Nome = "Marcelo";
-            vendedorMarcelo.CPF = "456.456.456-67";
-            vendedorMarcelo.Salario = 1000;
+            Console.WriteLine("O gentente terá: " + gerenteCarlos.calcularFerias() + "dias de férias");
+
+            Console.WriteLine("No ano o Fernando irá receber: R$ " + vendedorAlexandre.RemuneracaoTotal(vendedorAlexandre.Salario));
+            Console.WriteLine("O vendedor Alexandre terá: " + vendedorAlexandre.calcularFerias() + "dias de férias");
+
+            Vendedor vendedorMarcelo = new Vendedor(){
+            Nome = "Marcelo",
+            CPF = "456.456.456-67",
+            Salario = 1000,
+            NumeroClientesAtendidos = 1
+            };
+
+            Console.WriteLine("No ano o Marcelo irá receber: R$ " + vendedorMarcelo.RemuneracaoTotal(vendedorMarcelo.Salario));
+            Console.WriteLine("O vendedor Marcelo terá: " + vendedorMarcelo.calcularFerias() + "dias de férias");
 
            vendedorMarcelo.Bonificacao = vendedorMarcelo.Salario;
-           vendedorAlexandre.Bonificacao = vendedorAlexandre.Salario; //teste
+           vendedorAlexandre.Bonificacao = vendedorAlexandre.Salario;
+
 
             ContaCorrente contaDoMarcus = new ContaCorrente("Marcus Vinicius Ferreira Oliveira", 1234, 100,vendedorAlexandre); //vendedor Alexandre
             ContaCorrente contaDoAntonio = new ContaCorrente("Antonio Marcos", 1234, 120, vendedorMarcelo); //vendedor Marcelo
             ContaCorrente contaDaValdirene = new ContaCorrente("Valdirene", 1234, 150, vendedorAlexandre); //vendedor Alexandre
 
-
+/*
             Console.WriteLine("   "); 
             Console.WriteLine(" Nome: Marcus Vinicius Ferreira Oliveira"); 
             Console.WriteLine(" Turma: 35 DS - MT");
@@ -100,9 +111,14 @@ namespace meuPrimeirPrograma
 
             Console.WriteLine("   "); 
             Console.WriteLine("   "); 
-            Console.WriteLine("-------------------- aula de hoje -------------------------------  "); 
+            Console.WriteLine("-------------------- outra aula -------------------------------  "); 
             Console.WriteLine("O salario do Gerente carlos é de :" + gerenteCarlos.Salario);
-          
+
+            Console.WriteLine("   "); 
+            Console.WriteLine("   "); 
+            Console.WriteLine("-------------------- aula dia 03/11/2021  -------------------------------  "); 
+            Console.WriteLine("No ano o Fernando irá receber: R$ " + vendedorFernando.RemuneracaoTotal(vendedorFernando.Salario));
+          */
         }
     }
 }

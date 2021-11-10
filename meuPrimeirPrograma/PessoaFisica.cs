@@ -1,7 +1,6 @@
-interface PessoaFisica{
-    
-    public string Nome { get; set; }
-    public string CPF { get; set; }
+interface PessoaFisica {
 
-    public double Bonificacao();
+        public string Nome { get; set; }
+        public string CPF { get; set; }
+        
 }

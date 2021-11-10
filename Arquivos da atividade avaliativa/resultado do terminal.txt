@@ -1,0 +1,70 @@
+Nome: Marcus Vinicius Ferreira Oliveira
+ Turma: 35 DS - MT
+ N°: 29
+   
+                                                       Inicio da Tarefa   
+   
+------------------------- Contas Correntes --------------------
+   
+O saldo da conta do Marcus Vinicius Ferreira Oliveira é de: 100
+O vendedor que ajuda o Marcus é:Alexandre
+   
+O saldo da conta do Antonio Marcos é de: 120
+O vendedor que ajuda o Antonio é:Marcelo
+   
+O saldo da conta da Valdirene é de: 150
+O vendedor que ajuda o Valdirene é:Alexandre
+   
+------------------------- Saques --------------------
+   
+Sacando R$ 50 (cinquenta reais) de todas as contas criadas
+O saldo atual de Marcus é de: 50
+O saldo atual de Antonio é de: 70
+O saldo atual de Valdirene é de: 100
+   
+------------------------- Tranferencia --------------------
+   
+Transferindo R$ 5 (cinco reais) do marcus para o antonio
+O saldo da conta do Marcus é: 45
+O saldo da conta do Antonio é: 75
+   
+Transferindo R$ 10 (dez reais) do Antonio para a Valdirene
+O saldo da conta do Antonio é: 65
+O saldo da conta da Valdirene é: 110
+   
+Transferindo R$ 15 (quinze reais) da Valdirene para o Marcus
+O saldo da conta da Valdirene é: 95
+O saldo da conta do Marcus é: 60
+
+------------------------- Comissão dos vendedores --------------------
+
+A comissão do vendedor Alexandre é: 2,5
+A comissão do vendedor Marcelo é: 1,2
+A comissão do vendedor Felipe é: 0
+
+------------------------- Total de comissão a ser pago --------------------
+
+O total de comissão a ser pago é de: 3,7
+
+------------------------- Bonificação Anual dos vendedores e Gerente --------------------
+
+A bonificação do vendedor Alexandre é de R$: 20
+A bonificação do vendedor Marcelo é de R$: 40
+A bonificação do vendedor Felipe é de R$: 20
+A bonificação da gerente é de R$: 100
+
+------------------------- Renumeração total dos vendedores e gerente --------------------
+
+A renumereção do vendedor Alexandre é de R$: 14020
+A renumereção do vendedor Marcelo é de R$: 14040
+A renumereção do vendedor Felipe é de R$: 14020
+A renumereção da gerente Ana é de R$: 28100
+
+------------------------- Ferias dos vendedores e gerente --------------------
+
+O vendedor Alexandre terá: 32dias de ferias
+O vendedor Marcelo terá: 34dias de ferias
+O vendedor Felipe terá: 33dias de ferias
+a gerente Ana terá: 55dias de ferias
+
+ Fim da tarefa

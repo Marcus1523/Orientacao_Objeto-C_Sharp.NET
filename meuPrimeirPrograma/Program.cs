@@ -59,13 +59,13 @@ namespace meuPrimeirPrograma
             Console.WriteLine("   "); 
             Console.WriteLine("------------------------- Contas Correntes --------------------");  
             Console.WriteLine("   "); 
-            Console.WriteLine("O saldo da conta do Marcus Vinicius Ferreira Oliveira é de: " + contaDoMarcus.Titular);
+            Console.WriteLine("O saldo da conta do Marcus Vinicius Ferreira Oliveira é de: " + contaDoMarcus.Saldo);
             Console.WriteLine("O vendedor que ajuda o Marcus é:" + vendedorAlexandre.Nome);
             Console.WriteLine("   "); 
-            Console.WriteLine("O saldo da conta do Antonio Marcos é de: " + contaDoAntonio.Titular);
+            Console.WriteLine("O saldo da conta do Antonio Marcos é de: " + contaDoAntonio.Saldo);
             Console.WriteLine("O vendedor que ajuda o Antonio é:" + vendedorMarcelo.Nome);
             Console.WriteLine("   "); 
-            Console.WriteLine("O saldo da conta da Valdirene é de: " + contaDaValdirene.Titular);
+            Console.WriteLine("O saldo da conta da Valdirene é de: " + contaDaValdirene.Saldo);
             Console.WriteLine("O vendedor que ajuda o Valdirene é:" + vendedorAlexandre.Nome); //------------------------
             Console.WriteLine("   "); 
             Console.WriteLine("------------------------- Saques --------------------");
